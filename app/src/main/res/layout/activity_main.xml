@@ -1,0 +1,27 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_back4" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lawngreen">
+
+
+
+    </RelativeLayout>
+
+
+    <fragment
+        android:id="@+id/id_left_menu"
+        android:name="com.krisitine.readbookpro.fragment.FragmentLeft"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:tag="LEFT"/>
+
+
+
+</android.support.v4.widget.DrawerLayout>
